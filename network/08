@@ -1,0 +1,3 @@
+#use unix command: whois <domain_name>
+#Name Server means the host of the domain name
+whois slash16.org | grep 'Name Server:'

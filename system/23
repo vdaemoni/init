@@ -1,0 +1,2 @@
+#log out (as usual in Linux or Windows) and chose the new user, then type password
+#ssh -p <port_number> <username>@<ip> then type password

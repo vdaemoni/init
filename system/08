@@ -1,0 +1,3 @@
+#First of all we generate keys.
+ssh-keygen -t rsa
+#then public and private keys will be in ~/.ssh

@@ -1,0 +1,7 @@
+USER=$1
+if who | grep -c "^$USER"; then
+	killall -u $USER
+	userdel -rf $USER
+else
+	echo "User $USER doesn't exist or inactive"
+fi

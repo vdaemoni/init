@@ -1,0 +1,2 @@
+#IP ADRESS IS ALWAYS STORED HERE:
+cat /etc/resolv.conf

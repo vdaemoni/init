@@ -1,0 +1,18 @@
+if [ $1 = "full" ]; then
+	rm -rf ~/.vimrc
+	touch ~/.vimrc
+	echo "syntax on\ncolorscheme zellner\nset nu" > ~/.vimrc
+elif [ $1 = "lights" ]; then
+	rm -rf ~/.vimrc
+	touch ~/.vimrc
+	echo "syntax on\ncolorscheme zellner" > ~/.vimrc
+elif [ $1 = "nu" ]; then
+	rm -rf ~/.vimrc
+	touch ~/.vimrc
+	echo "set nu" > ~/.vimrc
+elif [ $1 = "off" ]; then
+	rm -rf ~/.vimrc
+	touch ~/.vimrc
+else
+	echo "I don't know <$1> command"
+fi

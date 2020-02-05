@@ -1,0 +1,3 @@
+#ps command, then find PID of the process you need to kill
+kill <PID>
+#jobs command to check the status and name of process
